@@ -43,11 +43,11 @@ Projeto desenvolvido durante a 'Semana Frontend Mundo Invertido' da Dio.
 
 ## Testar aplicação:
 
-<a href="https://gisellesouzaa.github.io/CardapioCafeteria/" target="_blank"><img align="center" alt="Testar Aplicação" src="https://img.shields.io/badge/Clique_aqui_para_testar_a_página-6DB33F?style=for-the-badge&logoColor=white"></a>
+<a href="https://gisellesouzaa.github.io/CardapioCafeteria/" target="_blank"><img align="center" alt="Testar Aplicação" src="https://img.shields.io/badge/Clique_aqui_para_testar_a_página-D12228?style=for-the-badge&logoColor=white"></a>
 
 ## Autor
 
 <h3>Giselle Souza</h3>
 Projeto realizado por Giselle Souza com a orientação dos professores Renan Oliveira, Michele Ambrosio e Diogo Mainardes, da Digital Innovation One.
 <br>
-<a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-05122A?style=for-the-flat&logo=linkedin&logoColor=white" target="_blank"></a>
