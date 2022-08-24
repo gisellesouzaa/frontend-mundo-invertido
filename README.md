@@ -5,7 +5,7 @@
 -------
 Página com theme switcher utilizando HTML, CSS e JavaScript, além de integrar um formulário de inscrição com um banco de dados Firebase.
 
-Projeto desenvolvido durante a 'Semana Frontend Mundo Invertido' da Dio.
+Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Frontend' da Digital Innovation One .
 
 <p align="center">🚧 Site em construção 🚧<p>
 
@@ -52,7 +52,7 @@ Projeto desenvolvido durante a 'Semana Frontend Mundo Invertido' da Dio.
 
 ## Autor
 
-<h3>Giselle Souza</h3>
-Projeto realizado por Giselle Souza com a orientação dos professores Renan Oliveira, Michele Ambrosio e Diogo Mainardes, da Digital Innovation One.
-<br>
+<img alt="Giselle Souza" title="Giselle Souza" src="https://github.com/gisellesouzaa.png" height="100" width="100"/>
+Projeto realizado por <strong>Giselle Souza</strong> com a orientação dos professores: <br> Renan Oliveira, Michele Ambrosio e Diogo Mainardes da Digital Innovation One.
+<br><br>
 <a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" target="_blank"></a>
