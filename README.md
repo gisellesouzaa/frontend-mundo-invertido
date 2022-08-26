@@ -3,14 +3,13 @@
 </p>
 
 -------
-<p align="center">
-    <img src="./assets/images/gifDemoPage.gif">
-</p>
-
 Página com theme switcher utilizando HTML, CSS e JavaScript, além de integrar um formulário de inscrição com um banco de dados Firebase.
 
 Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Frontend' da Digital Innovation One.
 
+<p align="center">
+    <img src="./assets/images/gifDemoPage.gif">
+</p>
 
 ## 🛠 Tecnologias
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
