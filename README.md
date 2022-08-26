@@ -3,11 +3,14 @@
 </p>
 
 -------
+<p align="center">
+    <img src="./assets/images/gifDemoPage.gif">
+</p>
+
 Página com theme switcher utilizando HTML, CSS e JavaScript, além de integrar um formulário de inscrição com um banco de dados Firebase.
 
-Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Frontend' da Digital Innovation One .
+Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Frontend' da Digital Innovation One.
 
-<p align="center">🚧 Site em construção 🚧<p>
 
 ## 🛠 Tecnologias
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
@@ -45,6 +48,7 @@ Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Fro
 - [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
 - [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
 - [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
+- [Firebase](https://firebase.google.com/docs/web/setup?authuser=0&hl=pt)
 
 ## 💻 Demo:
 
@@ -53,6 +57,6 @@ Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Fro
 ## Autor
 
 <img alt="Giselle Souza" title="Giselle Souza" src="https://github.com/gisellesouzaa.png" height="100" width="100"/>
-Projeto realizado por <strong>Giselle Souza</strong> com a orientação dos professores: <br> Renan Oliveira, Michele Ambrosio e Diogo Mainardes da Digital Innovation One.
+Projeto realizado por <strong>Giselle Souza</strong> com a orientação dos professores: <br> Renan J Paula, Michele Ambrosio e Diogo Mainardes da Digital Innovation One.
 <br><br>
 <a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" target="_blank"></a>
