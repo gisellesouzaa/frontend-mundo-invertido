@@ -35,9 +35,8 @@ Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Fro
     - Flexbox
     - Animações 
 - JavaScript
-    - Introdução ao JavaScript
+    - Aplicação do JavaScript
     - Manipulação do DOM
-    - Introdução ao Firebase
     - Integração com o Firebase
 
 ## 🔗 Links auxiliares
@@ -46,12 +45,11 @@ Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Fro
 - [WAI - Web Acessibility Initiative](https://www.w3.org/WAI/)
 - [WCAG 2](https://www.w3.org/WAI/WCAG21/quickref/) 
 - [Figma](https://www.figma.com/file/I3Q42CcVUziRN3iMfTrbfb/Stranger-Things?node-id=0%3A1) 
-- [Demo](https://micheleambrosio.github.io/semana-frontend-mundo-invertido/) 
 - [Firebase](https://firebase.google.com/docs/web/setup?authuser=0&hl=pt)
 
 ## 💻 Demo:
 
-<a href="https://gisellesouzaa.github.io/frontend-mundo-invertido/" target="_blank"><img align="center" alt="Testar Aplicação" src="https://img.shields.io/badge/Clique_aqui_para_testar_a_página-D12228?style=flat&logoColor=white"></a>
+<a href="https://gisellesouzaa.github.io/frontend-mundo-invertido/" target="_blank"><img align="center" alt="Clique aqui para acessar a página" src="https://img.shields.io/badge/Clique_aqui_para_acessar_a_página-D12228?style=flat&logoColor=white"></a>
 
 ## Autor
 
