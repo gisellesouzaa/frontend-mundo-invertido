@@ -65,9 +65,13 @@
   box-sizing: border-box;
   transition: 1s;
 }
+html{
+  overflow-x: hidden;
+}
 
 body {
   background: var(--page-background);
+  overflow-x: hidden;
 }
 
 h1,
@@ -149,6 +153,7 @@ textarea:focus-visible {
 header {
   background-color: var(--header-background-color);
   min-height: 850px;
+  min-height: 95%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -164,7 +169,7 @@ header::before {
   background-repeat: no-repeat;
   background-size: cover; /*Ocupa todo o espaço da div*/
   background-position: center 90%;
-  filter: saturate(0);
+  filter: saturate(0); 
   opacity: 0.2;
 }
 
@@ -173,6 +178,7 @@ header::before {
   padding: 80px 20px;
   text-align: center;
   z-index: 2;
+  max-height: 95%;
 }
 
 .header-content img {
@@ -225,6 +231,7 @@ section {
   display: flex;
   justify-content: space-between;
   margin-bottom: 95px;
+  padding: 10px;
 }
 
 /* Section 01 - Inverted World */
@@ -259,6 +266,8 @@ section {
 
 #section-stranger-things-trailer .video-frame {
   background-color: var(--primary-color);
+  max-width: 460px;
+
 }
 
 #section-stranger-things-trailer .video-frame iframe {
@@ -270,7 +279,7 @@ section {
     var(--primary-color),
     var(--primary-color-contrast)
   );
-  border-image-slice: 10 /* Define como a imagem será recortada para ser distribuída nas bordas.*/
+  border-image-slice: 10; /* Define como a imagem será recortada para ser distribuída nas bordas.*/
 }
 
 /* Section 03 - Stranger Things Gallery */
@@ -286,7 +295,8 @@ section {
 }
 
 #section-stranger-things-gallery .container h2 {
-  width: 800px;
+  max-width: 800px;
+  margin-bottom: 2rem;
 }
 
 #section-stranger-things-gallery .gallery-container {
@@ -316,14 +326,20 @@ section {
   align-items: center;
   gap: 40px;
   text-align: center;
+  padding: 22px;
+  
 }
 
 #section-form h2 {
-  width: 600px;
+  max-width: 600px;
+  width: 90%;
 }
 
 #section-form .form-content h3 {
   color: var(--highlight-color);
+  flex-basis: 30%;
+  text-align: left;
+  margin: 0;
 }
 
 #section-form .form-content h3 span {
@@ -334,15 +350,11 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 40px;
+
 }
 
-#section-form .form-content h3 { /*Repetido*/
-  flex-basis: 30%;
-  text-align: left;
-  margin: 0;
-}
-
-#section-form .form-container { /*Repetido*/
+#section-form .form-container { 
   flex-basis: 50%;
   position: relative;
 }
@@ -366,6 +378,7 @@ section {
   background-color: var(--primary-color);
   color: var(--primary-color-contrast);
   text-align: left;
+  min-width: 400px;
 }
 
 #section-form .form-container form button {
@@ -397,6 +410,7 @@ footer {
 footer p {
   max-width: 700px;
   margin-bottom: 24px;
+  z-index: 1;
 }
 
 footer img{
@@ -417,9 +431,121 @@ footer::after {
 footer::before {
   left: -50px;
   transform: rotateZ(-10deg);
+  width: 200px;
+  opacity: 0.5;
+  z-index: 0;
 }
 
 footer::after {
   right: -50px;
   transform: rotateZ(10deg);
+  width: 200px;
+  opacity: 0.5;
+  z-index: 0;
+
 }
+
+
+@media (max-width: 958px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-texts {
+    justify-items: center;
+    text-align: center;
+  }
+
+  section h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  .section-texts p{
+    justify-items: center;
+    text-align: center;
+  }
+
+  #section-inverted-world .section-texts{
+    width: 85%;
+  }
+
+  #section-stranger-things-trailer .section-texts {
+  margin-top: 1rem;
+    width: 85%;
+  display: flex;
+  flex-direction: column;
+  }
+
+  #section-stranger-things-gallery .gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #section-stranger-things-gallery .gallery-image{
+    flex: 0 1 40%;
+    min-width: 200px;
+  }
+
+  #section-form .form-content {
+    flex-direction: column;
+  }
+
+  #section-form .form-content h3{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  }
+
+  @media (max-width: 520px) {
+    .world-characters#bottom-characters {
+      height: 280px;
+    }
+
+    #section-stranger-things-trailer .video-frame,
+    #section-stranger-things-trailer .video-frame iframe {
+      max-width: 300px;
+    }
+
+    #section-form {
+      width: 90%;
+    }
+
+    #section-form .form-content {
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    #section-inverted-world img {
+      width: 90%;
+    }
+
+    #section-stranger-things-trailer .video-frame,
+    #section-stranger-things-trailer .video-frame iframe {
+      max-width: 230px;
+    }
+
+    #section-form .form-container form {
+      min-width: 250px;
+    }
+
+    #section-form form {
+      max-width: 200px;
+    }
+
+    footer {
+      padding: 5px;
+    }
+
+    footer::before,
+    footer::after {
+      display: none;
+    }
+  }

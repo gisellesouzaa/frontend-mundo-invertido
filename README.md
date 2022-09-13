@@ -54,6 +54,7 @@ Projeto desenvolvido com o tema da serie 'Mundo Invertido' durante a 'Semana Fro
 ## Autor
 
 <img alt="Giselle Souza" title="Giselle Souza" src="https://github.com/gisellesouzaa.png" height="100" width="100"/>
+<br>
 Projeto realizado por <strong>Giselle Souza</strong> com a orientação dos professores: <br> Renan J Paula, Michele Ambrosio e Diogo Mainardes da Digital Innovation One.
 <br><br>
 <a href="https://www.linkedin.com/in/giselle-de-souza-gabriel/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" target="_blank"></a>
